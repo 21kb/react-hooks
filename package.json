@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "build:storybook": "build-storybook",
+    "build:storybook": "build-storybook -c .storybook -o .storybook-output",
     "deploy:storybook": "now ./storybook-static",
     "lint": "tslint -c tslint.json -p tsconfig.json",
     "storybook": "start-storybook -p 2121 -c .storybook",
