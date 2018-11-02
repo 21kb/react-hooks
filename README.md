@@ -6,13 +6,14 @@
 
 ## Storybook Demos
 
-See [demos](https://storybook-static-yungmrzrms.now.sh).
+See [demos](https://storybook-static-qeyieeydqt.now.sh).
 
 ## Packages
 - [`@21kb/react-device-orientation-hook`](/packages/react-device-orientation-hook)
 - [`@21kb/react-dom-status-hook`](/packages/react-dom-status-hook)
 - [`@21kb/react-element-focus-hook`](/packages/react-element-focus-hook)
 - [`@21kb/react-notification-hook`](/packages/react-notification-hook)
+- [`@21kb/react-online-status-hook`](/packages/react-online-status-hook)
 - [`@21kb/react-page-visible-hook`](/packages/react-page-visible-hook)
 - [`@21kb/react-vibration-hook`](/packages/react-vibration-hook)
 
