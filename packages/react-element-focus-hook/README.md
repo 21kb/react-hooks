@@ -1,11 +1,23 @@
-# `react-window-focus-hook`
+# `@21kb/react-window-focus-hook`
 
-> TODO: description
+> React hook to respond to focus events
+
+## Install
+
+### npm
+
+```shell
+npm install --save @21kb/react-window-focus-hook
+```
+
+### Yarn
+
+```shell
+yarn add @21kb/react-window-focus-hook
+```
 
 ## Usage
 
-```
-const reactWindowFocusHook = require('react-window-focus-hook');
-
-// TODO: DEMONSTRATE API
+```jsx
+import reactWindowFocusHook from '@21kb/react-window-focus-hook';
 ```

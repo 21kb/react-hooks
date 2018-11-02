@@ -2,6 +2,20 @@
 
 > React hook for subscribing to the `deviceorientation` event
 
+## Install
+
+### npm
+
+```shell
+npm install --save @21kb/react-device-orientation-hook
+```
+
+### Yarn
+
+```shell
+yarn add @21kb/react-device-orientation-hook
+```
+
 ## Usage
 
 ```jsx

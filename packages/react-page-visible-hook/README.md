@@ -1,6 +1,20 @@
-# `21kb/react-page-visible-hook`
+# `@21kb/react-page-visible-hook`
 
 > React hook to use the Page Visibility API
+
+## Install
+
+### npm
+
+```shell
+npm install --save @21kb/react-page-visible-hook
+```
+
+### Yarn
+
+```shell
+yarn add @21kb/react-page-visible-hook
+```
 
 ## Usage
 

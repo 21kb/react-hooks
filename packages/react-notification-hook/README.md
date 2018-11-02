@@ -2,6 +2,20 @@
 
 > React hook to use the Notifications API
 
+## Install
+
+### npm
+
+```shell
+npm install --save @21kb/react-notification-hook
+```
+
+### Yarn
+
+```shell
+yarn add @21kb/react-notification-hook
+```
+
 ## Usage
 
 ```jsx

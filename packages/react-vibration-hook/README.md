@@ -2,10 +2,24 @@
 
 > React hook to use the Vibration API
 
+## Install
+
+### npm
+
+```shell
+npm install --save @21kb/react-vibration-hook
+```
+
+### Yarn
+
+```shell
+yarn add @21kb/react-vibration-hook
+```
+
 ## Usage
 
 ```jsx
-const useVibration = require('react-vibration-hook');
+import useVibration from '@21kb/react-vibration-hook';
 
 function Component() {
   const [vibrate, vibration] = useVibration();
