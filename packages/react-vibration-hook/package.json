@@ -25,7 +25,7 @@
     "url": "git+https://github.com/21kb/react-hooks.git"
   },
   "scripts": {
-    "tsc": "tsc"
+    "tsc": "tsc -p ./tsconfig.json"
   },
   "bugs": {
     "url": "https://github.com/21kb/react-hooks/issues"
