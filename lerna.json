@@ -4,7 +4,8 @@
       "ignoreChanges": [
         "ignored-file",
         "*.md"
-      ]
+      ],
+      "message": "🍎 Publish"
     }
   },
   "packages": [
