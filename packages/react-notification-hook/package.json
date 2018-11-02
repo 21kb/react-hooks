@@ -1,6 +1,6 @@
 {
   "name": "@21kb/react-notification-hook",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "React hook to use the Notifications API",
   "author": "Kunall Banerjee <yeskunall96@gmail.com>",
   "homepage": "https://github.com/21kb/react-hooks#readme",
