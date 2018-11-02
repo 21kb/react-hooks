@@ -35,6 +35,8 @@ const Component = () => {
 };
 ```
 
+__NOTE__: `useNotification` assumes the user has already granted permissions.
+
 ## License
 
 MIT

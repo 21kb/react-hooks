@@ -25,6 +25,9 @@ const useNotification = (value: INotification = defaultValue) => {
     useCallback(() => {
       if (Notification.permission === 'granted') {
         const notification = new Notification(title, options);
+      } else {
+        // Fail silenty
+        return;
       }
     }, []);
 
