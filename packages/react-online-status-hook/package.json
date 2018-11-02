@@ -1,0 +1,29 @@
+{
+  "name": "@21kb/react-online-status-hook",
+  "version": "1.0.0",
+  "description": "React hook to subsribe to `offline/online` events",
+  "author": "Kunall Banerjee <yeskunall96@gmail.com>",
+  "homepage": "https://github.com/21kb/react-hooks#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/21kb/react-hooks.git"
+  },
+  "scripts": {
+    "tsc": "tsc -p ./tsconfig.json"
+  },
+  "bugs": {
+    "url": "https://github.com/21kb/react-hooks/issues"
+  }
+}
