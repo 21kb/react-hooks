@@ -6,7 +6,7 @@
 
 ## Storybook Demos
 
-See [demos](https://storybook-static-qeyieeydqt.now.sh).
+See [demos](https://storybook-output-tqbguboyeu.now.sh).
 
 ## Packages
 - [`@21kb/react-device-orientation-hook`](/packages/react-device-orientation-hook)
