@@ -1,5 +1,3 @@
-# `react-hooks`
-
 <a href="https://21kb.now.sh/" target="_blank" rel="noopener noreferrer"><img width="900" src="https://s3.ca-central-1.amazonaws.com/kimchi-now-sh-site-images/images/react-hooks%402x.png" alt="21kb-sponsor" /></a>
 
 ###### Logo Attribution
