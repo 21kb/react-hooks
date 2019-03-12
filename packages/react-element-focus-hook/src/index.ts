@@ -1,19 +1,10 @@
-import * as React from 'react';
+import { useEffect, useState } from 'react';
 
-export type UseState = <T>(initialState: T) => [T, (newState: T) => void];
-export const useState: UseState = (React as any).useState;
-
-export type UseEffect = (
-  didUpdate: () => (() => void) | void,
-  params?: any[],
-) => void;
-export const useEffect: UseEffect = (React as any).useEffect;
-
-export interface IWindowFoucsState {
+export interface IWindowFocusState {
   type: FocusEvent | null | undefined;
 }
 
-export const initialState: IWindowFoucsState = {
+export const initialState: IWindowFocusState = {
   type: null,
 };
 

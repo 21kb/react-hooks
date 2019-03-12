@@ -1,10 +1,4 @@
-import * as React from 'react';
-
-export type UseCallback = <T extends ((...args: any[]) => any)>(
-  callback: T,
-  args: any[],
-) => T;
-export const useCallback: UseCallback = (React as any).useCallback;
+import { useCallback } from 'react';
 
 export type Vibrate = number | number[];
 
