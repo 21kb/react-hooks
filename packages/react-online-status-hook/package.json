@@ -16,6 +16,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "peerDependencies": {
+    "react": "16.8.4",
+    "react-dom": "16.8.4"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/21kb/react-hooks.git"

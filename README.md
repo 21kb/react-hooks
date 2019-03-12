@@ -19,12 +19,7 @@ See [demos](https://storybook-output-tqbguboyeu.now.sh).
 - [`@21kb/react-page-visible-hook`](/packages/react-page-visible-hook)
 - [`@21kb/react-vibration-hook`](/packages/react-vibration-hook)
 
-> **Note:** This is using the new [React Hooks API Proposal](https://reactjs.org/docs/hooks-intro.html)
-> which is subject to change until React 16.7 final.
->
-> You'll need to install `react`, `react-dom`, etc at `^16.7.0-alpha.0`
-
-<a href="https://21kb.now.sh/" target="_blank" rel="noopener noreferrer"><img width="900" src="https://s3.ca-central-1.amazonaws.com/kimchi-now-sh-site-images/images/sponsored%402x.png" alt="21kb-sponsor" /></a>
+<a href="https://github.com/21kb" target="_blank" rel="noopener noreferrer"><img width="900" src="https://s3.ca-central-1.amazonaws.com/kimchi-now-sh-site-images/images/sponsored%402x.png" alt="21kb-sponsor" /></a>
 
 
 ## License
