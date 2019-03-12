@@ -1,6 +1,6 @@
 {
   "name": "@21kb/react-page-visible-hook",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "React hook to use the Page Visibility API",
   "author": "Kunall Banerjee <yeskunall96@gmail.com>",
   "homepage": "https://github.com/21kb/react-hooks#readme",
