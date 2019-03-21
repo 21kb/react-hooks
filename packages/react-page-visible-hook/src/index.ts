@@ -5,10 +5,13 @@ export interface IPageVisibilityState {
   readonly visibilityState: string;
 }
 
-export const initialState: IPageVisibilityState = {
+export const initialState: IPageVisibilityState = () => (global.document ? {
   hidden: document.hidden,
   visibilityState: document.visibilityState,
-};
+} : {
+  hidden: false,
+  visibilityState: "prerender"  
+});
 
 const useVisible = () => {
   const [state, setState] = useState(initialState);
@@ -21,11 +24,13 @@ const useVisible = () => {
   };
 
   useEffect(() => {
-    document.addEventListener('visibilitychange', onVisibilityChangeEvent);
+    if (global.document) {
+      document.addEventListener('visibilitychange', onVisibilityChangeEvent);
 
-    return () => {
-      document.removeEventListener('visibilitychange', onVisibilityChangeEvent);
-    };
+      return () => {
+        document.removeEventListener('visibilitychange', onVisibilityChangeEvent);
+      };
+    }
   }, []);
 
   return state;
