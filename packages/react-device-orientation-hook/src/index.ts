@@ -32,7 +32,7 @@ const useOrientation = (initialState: IOrientationState = defaultState) => {
     );
 
     return () => {
-      window.addEventListener(
+      window.removeEventListener(
         'orientationchange',
         onOrientationChangeEvent,
         true,
